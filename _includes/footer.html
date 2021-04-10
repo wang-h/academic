@@ -37,10 +37,7 @@
 
     <div class="bottom">
 
-      {% assign nblangs = site.langs | size %}
-      {% if nblangs > 1 %}
-        {% include _i18n/lang_selector.html %}
-      {% endif %}
+      
 
       <div class="legal">
       {% if site.cc == null %}©{% endif %}
